@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Imagem flexível</title>
+</head>
+<body>
+	<h1>Imagem flexível</h1>
+	<p>Você está vendo a imagem completa? Experimente ampliar ou diminuir o tamanho da sua janela para aproveitar a melhor experiência &#x1F9D0</p>
+
+	<picture>
+		<source media="(max-width:750px )" srcset="imagens/jardim-p.jpg" type="image/jpeg">
+		<source media="(max-width:1050px )" srcset="imagens/jardim-m.jpg" type="image/jpeg">
+		<img src="imagens/jardim-g.jpg" alt="Fotografia de um jardim">
+	</picture>
+	<p>Ufa&#x1F92F , consegui&#x1F975</p>
+</body>
+</html>
