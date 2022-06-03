@@ -4,24 +4,26 @@
 
 
 body {
-	background-color:  hsl(217, 54%, 11%);
-	font-family: 'Outfit', sans-serif;
-	color: white;
-	margin: 0;
-	display: flex;
+	background-color: hsl(217, 54%, 11%);
+    font-family: 'Outfit', sans-serif;
+    color: white;
+    margin: 0;
+    display: flex;
+    min-height: 100vh;
     flex-direction: column;
     align-items: center;
-    min-height: 100vh;
+    justify-content: center;
 }
 
 main {
 	background-color: hsl(216, 50%, 16%);
 	border-radius: 15px;
 	width: 340px;
+	box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.342);
 }
 
 .card {
-	padding: 22px;
+	padding: 30px 24px;
 }
 
 .image {
@@ -48,7 +50,11 @@ p {
 	display: inline-block;
 }
 
-span {
+.cripto {
+	color: hsl(178, 100%, 50%);
+}
+
+.date {
 	margin-left: 115px;
 }
 
@@ -60,5 +66,21 @@ hr {
 
 .avatar {
 	width: 40px;
-	border: 3px;
+	border: solid 1px white;
+	border-radius: 50%;
+}
+
+.creator {
+	color:  hsl(215, 51%, 70%);
+	font-weight: 300;
+}
+
+strong {
+	color: white;
+	font-weight: 400;
+}
+
+h1:hover, strong:hover {
+	color: hsl(178, 100%, 50%);
+	cursor: pointer;
 }
